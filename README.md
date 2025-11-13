@@ -36,7 +36,7 @@ npm start
 ```
 Server Will run On :
  - http://localhost:4000
-###📌 2). Frontend Set Up (React + Tailwind )
+### 📌 2). Frontend Set Up (React + Tailwind )
 ```bash
 #Got To Frontend
 cd ../frontend
