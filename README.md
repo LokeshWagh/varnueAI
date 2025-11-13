@@ -100,7 +100,32 @@ The table includes the following fields:
   - role – User role (admin or user)
   - otp – 6-digit OTP for password reset (optional, added during reset flow)
   - otp_expiry – Timestamp storing OTP expiry time
-![Screenshot](src/assets)
+ScrrenShot of Table :
+![Screenshot](frontend/src/assets/readmeImg/db.png)
+---
+# 📸 Project Screenshots
+  Login Page Also Forget Password page Which Similar to Sign up and Validate OTP
+  
+![Screenshot](frontend/src/assets/readmeImg/Login.png)
+ ---
+![Screenshot](frontend/src/assets/readmeImg/forgetPass.png)
+ After Login : 
+   - Admin Dashboard :
+
+![Screenshot](frontend/src/assets/readmeImg/AdminDashboard.png)
+
+   - Admin Access : All Users
+       - Loading Skeleton If All users 
+     
+ ![Screenshot](frontend/src/assets/readmeImg/loadingEffect.png)
+
+       -  All User Interface With Delete and Edit and Pagination Functionality 
+ ![Screenshot](frontend/src/assets/readmeImg/AlluserList.png)
+
+  - Delete and Update Page Interfaces :
+ ![Screenshot](frontend/src/assets/readmeImg/deleteuser.png)
+ --- 
+ ![Screenshot](frontend/src/assets/readmeImg/updateuser.png)
 
 
  
