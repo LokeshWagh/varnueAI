@@ -89,6 +89,18 @@ frontend Is run on :
 | GET    | /api/users          | Admin: Fetch all users         |
 | DELETE | /api/users/:id      | Admin: Delete user             |
 
+## Database Structure (Supabase)
+This project uses Supabase as the backend database. A single table named users is used for storing all user account information.
+
+The table includes the following fields:
+  - id – Unique identifier (UUID)
+  - name – Full name of the user
+  - email – Email address (unique)
+  - password – Hashed password stored using bcrypt
+  - role – User role (admin or user)
+  - otp – 6-digit OTP for password reset (optional, added during reset flow)
+  - otp_expiry – Timestamp storing OTP expiry time
+![Screenshot](src/assets)
 
 
  
