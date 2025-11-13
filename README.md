@@ -20,6 +20,9 @@ Built with **Node.js**, **Express**, **Supabase**, and **React (Vite + Tailwind 
 
 ## 📌 1. Clone the Repository
 ```bash
+Create New Folder and inside It Open Terminal
+Below is command of Installation
+
 git clone git@github.com:LokeshWagh/varnueAI.git
 cd varnueAI
 ##Go to The Backend Folder
@@ -31,5 +34,26 @@ npm start
 ```
 Server Will run On :
  - http://localhost:4000
+###📌 2). Frontend Set Up (React + Tailwind )
+```bash
+#Got To Frontend
+cd ../frontend
+Install frontend dependencies:
+npm install
+##Start Development Server
+npm run dev
+```
+frontend Is run on :
+ - http://localhost:5173
+
+#API EndPoints :: 
+
+| Method | Endpoint           | Description            |
+| ------ | ------------------ | ---------------------- |
+| POST   | /api/signup        | SignUp
+| POST   | /api/login         | Login (JWT) password 
+|
+| GET    | /api/users         | Admin: Fetch all users |
+| DELETE | /api/users/:id     | Admin: Delete user     |
 
  
