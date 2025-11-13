@@ -46,14 +46,16 @@ npm run dev
 frontend Is run on :
  - http://localhost:5173
 
-#API EndPoints :: 
+### API EndPoints :: 
 
-| Method | Endpoint           | Description            |
-| ------ | ------------------ | ---------------------- |
-| POST   | /api/signup        | SignUp
-| POST   | /api/login         | Login (JWT) password 
-|
-| GET    | /api/users         | Admin: Fetch all users |
-| DELETE | /api/users/:id     | Admin: Delete user     |
+| Method | Endpoint            | Description                    |
+| ------ | --------------------| ------------------------------ |
+| POST   | /api/signup         | SignUp                         |
+| POST   | /api/login          | Login (JWT) password Hashing   |
+| PUT    | /profile/:id        | Update Employee Data           |
+| POST   | /api/forgot-password| For Sending OTP                |
+| POST   | api/reset-password  | Admin: Fetch all users         |
+| GET    | /api/users          | Admin: Fetch all users         |
+| DELETE | /api/users/:id      | Admin: Delete user             |
 
  
