@@ -102,8 +102,10 @@ The table includes the following fields:
   - otp_expiry – Timestamp storing OTP expiry time
 ScrrenShot of Table :
 ![Screenshot](frontend/src/assets/readmeImg/db.png)
-
+---
 # 📸 Project Screenshots
+  Login Page Also Forget Password page Which Similar to Sign up 
+![Screenshot](frontend/src/assets/readmeImg/db.png)
 
 
  
