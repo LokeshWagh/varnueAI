@@ -100,7 +100,10 @@ The table includes the following fields:
   - role – User role (admin or user)
   - otp – 6-digit OTP for password reset (optional, added during reset flow)
   - otp_expiry – Timestamp storing OTP expiry time
-![Screenshot](src/assets)
+ScrrenShot of Table :
+![Screenshot](frontend/src/assets/readmeImg/db.png)
+
+# 📸 Project Screenshots
 
 
  
