@@ -14,6 +14,7 @@ Built with **Node.js**, **Express**, **Supabase**, and **React (Vite + Tailwind 
 - 🧵 Tailwind CSS styled UI
 - 🗄️ Supabase as database
 - 🚀 Fully API-driven architecture
+- 🚀 Redux For State Management
 
 ---
 # 🛠️ Installation & Setup
